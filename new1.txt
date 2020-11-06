@@ -7,3 +7,11 @@ nano file.txt ##creates or edits a file.txt
 git add . #staged changes
 git commit -a -m "Message for the commit"
 git push
+git branch ryan
+git checkout ryan
+git commit -a -m "New branch set up"
+git checkout main
+git merge ryan
+git push
+git status
+
