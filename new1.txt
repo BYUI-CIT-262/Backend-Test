@@ -1,2 +1,9 @@
 What do we want to put in here?
 We Want to learn git!
+Git set up steps:
+git clone https://github.com/BYUI-CIT-262/backend-test.git
+git status ##checks that what branc you are on
+nano file.txt ##creates or edits a file.txt
+git add . #staged changes
+git commit -a -m "Message for the commit"
+git push
